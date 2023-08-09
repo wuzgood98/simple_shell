@@ -40,4 +40,6 @@ typedef struct shell
 	char *pid;
 } shell_data;
 
+void free_data(shell_data *data);
+
 #endif
