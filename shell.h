@@ -232,4 +232,8 @@ int exec_cmd(shell_data *data);
 /* find_line.c */
 int find_line(shell_data *data);
 
+/* getline.c */
+void assign_line(char **lineptr, size_t *n, char *buffer, size_t b);
+ssize_t _getline(char **lineptr, size_t *n, FILE *stream);
+
 #endif
